@@ -1,29 +1,3 @@
-# from PySide6 import QtWidgets
-# import sys
-
-# app = QtWidgets.QApplication(sys.argv)
-
-# window = QtWidgets.QWidget()
-# window.setWindowTitle("Hello world on pyside6")
-# window.resize(300, 250)
-# lbl = QtWidgets.QLabel("Hello world")
-# lbl1 = QtWidgets.QLabel("Hello")
-# btn = QtWidgets.QPushButton("Close")
-
-# # box = QtWidgets.QVBoxLayout()
-
-# # box.addWidget(btn)
-# # box.addWidget(lbl)
-
-# # window.setLayout(box)
-# window.setLayout(lbl)
-
-# btn.clicked.connect(app.quit)
-
-# window.show()
-
-# sys.exit(app.exec())
-
 from PySide6.QtWidgets import (
     QApplication, 
     QPushButton, 
