@@ -15,23 +15,24 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Pyside6") # Заголовок окна
         self.btn_start = QPushButton("Начать") # Кнопка
         self.btn_sandbox = QPushButton("Песочница")
+        self.btn_about = QPushButton("О проекте")
 
         # Размеры кнопок
-        self.btn_start.setFixedSize(100, 50)
-        self.btn_sandbox.setFixedSize(100, 50)
+        self.btn_start.setFixedSize(150, 100)
+        self.btn_sandbox.setFixedSize(150, 100)
+        self.btn_about.setFixedSize(150, 100)
 
         # Вертикальный контейнер для кнопок
         self.central_widget = QWidget()
         self.lyt = QVBoxLayout(self.central_widget)
 
         # Размеры окна
-        self.setFixedSize(400, 300)
-        self.setMinimumSize(200,200)
-        self.setMaximumSize(1000, 1000)
+        self.setMinimumSize(1500, 1000)
 
         # Размещения кнопок на окне 
         self.lyt.addWidget(self.btn_start)
         self.lyt.addWidget(self.btn_sandbox)
+        self.lyt.addWidget(self.btn_about)
 
         self.setCentralWidget(self.central_widget)
 
