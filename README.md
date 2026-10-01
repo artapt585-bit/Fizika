@@ -4,15 +4,17 @@
 
 ## Как запустить
 Если захотите протестировать
-1. Скопируйте репозиторий
+
+1. Скачайте python версией 3.12
+2. Скопируйте репозиторий
 ```bash
   git clone https://github.com/artapt585-bit/Fizika
 ```
-2. Загрузите необходимые библиотеки
+3. Загрузите необходимые библиотеки
 ```bash
   pip install -r requirements.txt
 ```
-3. Запустите файл main.py через python
+4. Запустите файл main.py через python
 ```bash
  python main.py
 ```
